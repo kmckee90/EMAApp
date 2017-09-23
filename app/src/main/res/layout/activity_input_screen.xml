@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="kmckee90.emaapp.InputScreen"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:background="@color/lightGray">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/SurveyTitle"
+            android:id="@+id/surveyTitle"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <kmckee90.emaapp.phd.HoldButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/holdButton1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/surveyTitle"/>
+
+        <kmckee90.emaapp.phd.HoldButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/holdButton2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/holdButton1"/>
+
+        <kmckee90.emaapp.phd.HoldButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/holdButton3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/holdButton2"/>
+
+        <kmckee90.emaapp.phd.HoldButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/holdButton4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/holdButton3"/>
+
+        <kmckee90.emaapp.phd.HoldButtonBipolar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/holdButtonBipolar1"
+            android:layout_below="@+id/holdButton4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+        <kmckee90.emaapp.phd.HoldButtonBipolar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/holdButtonBipolar2"
+            android:layout_below="@+id/holdButtonBipolar1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Submit"
+            android:id="@+id/submitButton"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"/>
+</RelativeLayout>
+

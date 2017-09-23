@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">EMA App</string>
+    <string name="toSurveys">Go to Survey</string>
+    <string name="title_activity_view_data">ViewData</string>
+    <string name="toViewData">View Data</string>
+    <string name="item1">Item</string>
+    <string name="Survey1">Survey 1</string>
+    <string name="Survey2">Survey 2</string>
+    <string name="X">X</string>
+    <string name="Submit">Submit</string>
+    <string name="SurveyTitle">Affect Questionnaire</string>
+
+    <string name="_notification_title_template">: %1$s</string>
+    <string name="_notification_placeholder_text_template">Please fill out your survey.</string>
+    <string name="survey_reminder_notification_title_template">Survey reminder: %1$s</string>
+    <string name="survey_reminder_notification_placeholder_text_template">Please fill out your survey.</string>
+</resources>
